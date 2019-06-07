@@ -1,2 +1,2 @@
-FROM registry.hub.docker.com/nginx/nginx:latest
+FROM nginx:latest
 COPY code/* /usr/share/nginx/html/
